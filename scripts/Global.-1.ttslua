@@ -7,8 +7,10 @@ local calling_asset = Decker.Asset(
    {
       width = 7,
       height = 2,
+      uniqueBack = false,
    }
 )
+
 L21 = Decker.Card(calling_asset, 1, 1, {name = "L21"})
 L24 = Decker.Card(calling_asset, 1, 2, {name = "L24"})
 L23 = Decker.Card(calling_asset, 1, 3, {name = "L23"})
@@ -23,29 +25,130 @@ P218 = Decker.Card(calling_asset, 2, 4, {name = "P218"})
 P209 = Decker.Card(calling_asset, 2, 5, {name = "P209"})
 
 local event_asset_1 = Decker.Asset(
-   "https://drive.google.com/open?id=1iLGgNKmd4OBKLjgPpaNM6C7gvkjeEqun",
-   "https://drive.google.com/open?id=1wuAD9pffvscg42nMx-Wac2GeT2N_pRP5",
+   "https://drive.google.com/uc?export=download&id=1iLGgNKmd4OBKLjgPpaNM6C7gvkjeEqun",
+   "https://drive.google.com/uc?export=download&id=1wuAD9pffvscg42nMx-Wac2GeT2N_pRP5",
    {
       width = 10,
       height = 7,
+      uniqueBack = true,
    }
 )
+S11 = Decker.Card(event_asset_1, 1, 1, {name = "S11"})
+S10 = Decker.Card(event_asset_1, 1, 2, {name = "S10"})
+S9 = Decker.Card(event_asset_1, 1, 3, {name = "S9"})
+S8 = Decker.Card(event_asset_1, 1, 4, {name = "S8"})
+S7 = Decker.Card(event_asset_1, 1, 5, {name = "S7"})
+S6 = Decker.Card(event_asset_1, 1, 6, {name = "S6"})
+S5 = Decker.Card(event_asset_1, 1, 7, {name = "S5"})
+S4 = Decker.Card(event_asset_1, 1, 8, {name = "S4"})
+S3 = Decker.Card(event_asset_1, 1, 9, {name = "S3"})
+S2 = Decker.Card(event_asset_1, 1, 10, {name = "S2"})
+S1 = Decker.Card(event_asset_1, 2, 1, {name = "S1"})
+L15 = Decker.Card(event_asset_1, 2, 2, {name = "L15"})
+L16 = Decker.Card(event_asset_1, 2, 3, {name = "L16"})
+L17 = Decker.Card(event_asset_1, 2, 4, {name = "L17"})
+L18 = Decker.Card(event_asset_1, 2, 5, {name = "L18"})
+L19 = Decker.Card(event_asset_1, 2, 6, {name = "L19"})
+L31 = Decker.Card(event_asset_1, 2, 7, {name = "L31"})
+L39 = Decker.Card(event_asset_1, 2, 8, {name = "L39"})
+L40 = Decker.Card(event_asset_1, 2, 9, {name = "L40"})
+L47 = Decker.Card(event_asset_1, 2, 10, {name = "L47"})
+L48 = Decker.Card(event_asset_1, 3, 1, {name = "L48"})
+L55 = Decker.Card(event_asset_1, 3, 2, {name = "L55"})
+L56 = Decker.Card(event_asset_1, 3, 3, {name = "L56"})
+L105 = Decker.Card(event_asset_1, 3, 4, {name = "L105"})
+L106 = Decker.Card(event_asset_1, 3, 5, {name = "L106"})
+L107 = Decker.Card(event_asset_1, 3, 6, {name = "L107"})
+L114 = Decker.Card(event_asset_1, 3, 7, {name = "L114"})
+L115 = Decker.Card(event_asset_1, 3, 8, {name = "L115"})
+L124 = Decker.Card(event_asset_1, 3, 9, {name = "L124"})
+L125 = Decker.Card(event_asset_1, 3, 10, {name = "L125"})
+L131 = Decker.Card(event_asset_1, 4, 1, {name = "L131"})
+L132 = Decker.Card(event_asset_1, 4, 2, {name = "L132"})
+L141 = Decker.Card(event_asset_1, 4, 3, {name = "L141"})
+L142 = Decker.Card(event_asset_1, 4, 4, {name = "L142"})
+L148 = Decker.Card(event_asset_1, 4, 5, {name = "L148"})
+P290 = Decker.Card(event_asset_1, 4, 6, {name = "P290"})
+P289 = Decker.Card(event_asset_1, 4, 7, {name = "P289"})
+P276 = Decker.Card(event_asset_1, 4, 8, {name = "P276"})
+P275 = Decker.Card(event_asset_1, 4, 9, {name = "P275"})
+P273 = Decker.Card(event_asset_1, 4, 10, {name = "P273"})
+P272 = Decker.Card(event_asset_1, 5, 1, {name = "P272"})
+P270 = Decker.Card(event_asset_1, 5, 2, {name = "P270"})
+P269 = Decker.Card(event_asset_1, 5, 3, {name = "P269"})
+P268 = Decker.Card(event_asset_1, 5, 4, {name = "P268"})
+P267 = Decker.Card(event_asset_1, 5, 5, {name = "P267"})
+P266 = Decker.Card(event_asset_1, 5, 6, {name = "P266"})
+P265 = Decker.Card(event_asset_1, 5, 7, {name = "P265"})
+P264 = Decker.Card(event_asset_1, 5, 8, {name = "P264"})
+P263 = Decker.Card(event_asset_1, 5, 9, {name = "P263"})
+P262 = Decker.Card(event_asset_1, 5, 10, {name = "P262"})
+P259 = Decker.Card(event_asset_1, 6, 1, {name = "P259"})
+P258 = Decker.Card(event_asset_1, 6, 2, {name = "P258"})
+P256 = Decker.Card(event_asset_1, 6, 3, {name = "P256"})
+P255 = Decker.Card(event_asset_1, 6, 4, {name = "P255"})
+P254 = Decker.Card(event_asset_1, 6, 5, {name = "P254"})
+P253 = Decker.Card(event_asset_1, 6, 6, {name = "P253"})
+P252 = Decker.Card(event_asset_1, 6, 7, {name = "P252"})
+P250 = Decker.Card(event_asset_1, 6, 8, {name = "P250"})
+P248 = Decker.Card(event_asset_1, 6, 9, {name = "P248"})
+P247 = Decker.Card(event_asset_1, 6, 10, {name = "P247"})
+P246 = Decker.Card(event_asset_1, 7, 1, {name = "P246"})
+P245 = Decker.Card(event_asset_1, 7, 2, {name = "P245"})
+P244 = Decker.Card(event_asset_1, 7, 3, {name = "P244"})
+P243 = Decker.Card(event_asset_1, 7, 4, {name = "P243"})
+P242 = Decker.Card(event_asset_1, 7, 5, {name = "P242"})
+P241 = Decker.Card(event_asset_1, 7, 6, {name = "P241"})
+P240 = Decker.Card(event_asset_1, 7, 7, {name = "P240"})
+P239 = Decker.Card(event_asset_1, 7, 8, {name = "P239"})
+P237 = Decker.Card(event_asset_1, 7, 9, {name = "P237"})
 
 local event_asset_2 = Decker.Asset(
-   "https://drive.google.com/open?id=1FcrJx9LQ3GVIDrM4o38-kUgxHni9jQgG",
-   "https://drive.google.com/open?id=1MGsDums9HIhJBxnCySZCJvKeADLC1N5g",
+   "https://drive.google.com/uc?export=download&id=1FcrJx9LQ3GVIDrM4o38-kUgxHni9jQgG",
+   "https://drive.google.com/uc?export=download&id=1MGsDums9HIhJBxnCySZCJvKeADLC1N5g",
    {
       width = 10,
       height = 3,
+      uniqueBack = true,
    }
 )
+P236 = Decker.Card(event_asset_2, 1, 1, {name = "P236"})
+P235 = Decker.Card(event_asset_2, 1, 2, {name = "P235"})
+P234 = Decker.Card(event_asset_2, 1, 3, {name = "P234"})
+P233 = Decker.Card(event_asset_2, 1, 4, {name = "P233"})
+P229 = Decker.Card(event_asset_2, 1, 5, {name = "P229"})
+P228 = Decker.Card(event_asset_2, 1, 6, {name = "P228"})
+P227 = Decker.Card(event_asset_2, 1, 7, {name = "P227"})
+P226 = Decker.Card(event_asset_2, 1, 8, {name = "P226"})
+P225 = Decker.Card(event_asset_2, 1, 9, {name = "P225"})
+P224 = Decker.Card(event_asset_2, 1, 10, {name = "P224"})
+P223 = Decker.Card(event_asset_2, 2, 1, {name = "P223"})
+P222 = Decker.Card(event_asset_2, 2, 2, {name = "P222"})
+P221 = Decker.Card(event_asset_2, 2, 3, {name = "P221"})
+P219 = Decker.Card(event_asset_2, 2, 4, {name = "P219"})
+P217 = Decker.Card(event_asset_2, 2, 5, {name = "P217"})
+P216 = Decker.Card(event_asset_2, 2, 6, {name = "P216"})
+P215 = Decker.Card(event_asset_2, 2, 7, {name = "P215"})
+P214 = Decker.Card(event_asset_2, 2, 8, {name = "P214"})
+P213 = Decker.Card(event_asset_2, 2, 9, {name = "P213"})
+P212 = Decker.Card(event_asset_2, 2, 10, {name = "P212"})
+P211 = Decker.Card(event_asset_2, 3, 1, {name = "P211"})
+P210 = Decker.Card(event_asset_2, 3, 2, {name = "P210"})
+P208 = Decker.Card(event_asset_2, 3, 3, {name = "P208"})
+P207 = Decker.Card(event_asset_2, 3, 4, {name = "P207"})
+P206 = Decker.Card(event_asset_2, 3, 5, {name = "P206"})
+P205 = Decker.Card(event_asset_2, 3, 6, {name = "P205"})
+P204 = Decker.Card(event_asset_2, 3, 7, {name = "P204"})
+P203 = Decker.Card(event_asset_2, 3, 8, {name = "P203"})
+P201 = Decker.Card(event_asset_2, 3, 9, {name = "P201"})
 
 local inhabitant_asset = Decker.Asset(
-   "https://drive.google.com/open?id=1Riv2e-n4ywr1vHK6SMop63jL1aboJD2s",
-   "https://drive.google.com/open?id=1UdICcS4mwedFmZtnYEhgTxZjNBRjRHTB",
+   "https://drive.google.com/uc?export=download&id=1Riv2e-n4ywr1vHK6SMop63jL1aboJD2s",
+   "https://drive.google.com/uc?export=download&id=1UdICcS4mwedFmZtnYEhgTxZjNBRjRHTB",
    {
       width = 4,
       height = 5,
+      uniqueBack = true,
    }
 )
 L32 = Decker.Card(inhabitant_asset, 1, 1, {name = "L32"})
@@ -66,29 +169,130 @@ P278 = Decker.Card(inhabitant_asset, 4, 3, {name = "P278"})
 P277 = Decker.Card(inhabitant_asset, 4, 4, {name = "P277"})
 
 local item_asset = Decker.Asset(
-   "https://drive.google.com/open?id=1iV_RnCtdOgCYz8AnEjfOz25eUv0mcRvs",
-   "https://drive.google.com/open?id=1DbmxNiO3mJeske4MfcggnS-gEIReLzYo",
+   "https://drive.google.com/uc?export=download&id=1iV_RnCtdOgCYz8AnEjfOz25eUv0mcRvs",
+   "https://drive.google.com/uc?export=download&id=1DbmxNiO3mJeske4MfcggnS-gEIReLzYo",
    {
       width = 10,
       height = 4,
+      uniqueBack = true,
    }
 )
+S18 = Decker.Card(item_asset, 1, 1, {name = "S18"})
+S17 = Decker.Card(item_asset, 1, 2, {name = "S17"})
+S16 = Decker.Card(item_asset, 1, 3, {name = "S16"})
+S15 = Decker.Card(item_asset, 1, 4, {name = "S15"})
+S14 = Decker.Card(item_asset, 1, 5, {name = "S14"})
+S13 = Decker.Card(item_asset, 1, 6, {name = "S13"})
+S12 = Decker.Card(item_asset, 1, 7, {name = "S12"})
+L13 = Decker.Card(item_asset, 1, 8, {name = "L13"})
+L14 = Decker.Card(item_asset, 1, 9, {name = "L14"})
+L29 = Decker.Card(item_asset, 1, 10, {name = "L29"})
+L30 = Decker.Card(item_asset, 2, 1, {name = "L30"})
+L37 = Decker.Card(item_asset, 2, 2, {name = "L37"})
+L38 = Decker.Card(item_asset, 2, 3, {name = "L38"})
+L45 = Decker.Card(item_asset, 2, 4, {name = "L45"})
+L46 = Decker.Card(item_asset, 2, 5, {name = "L46"})
+L54 = Decker.Card(item_asset, 2, 6, {name = "L54"})
+L53 = Decker.Card(item_asset, 2, 7, {name = "L53"})
+L92 = Decker.Card(item_asset, 2, 8, {name = "L92"})
+L92 = Decker.Card(item_asset, 2, 9, {name = "L92"})
+L103 = Decker.Card(item_asset, 2, 10, {name = "L103"})
+L104 = Decker.Card(item_asset, 3, 1, {name = "L104"})
+L112 = Decker.Card(item_asset, 3, 2, {name = "L112"})
+L113 = Decker.Card(item_asset, 3, 3, {name = "L113"})
+L122 = Decker.Card(item_asset, 3, 4, {name = "L122"})
+L123 = Decker.Card(item_asset, 3, 5, {name = "L123"})
+L129 = Decker.Card(item_asset, 3, 6, {name = "L129"})
+L130 = Decker.Card(item_asset, 3, 7, {name = "L130"})
+L139 = Decker.Card(item_asset, 3, 8, {name = "L139"})
+L140 = Decker.Card(item_asset, 3, 9, {name = "L140"})
+L146 = Decker.Card(item_asset, 3, 10, {name = "L146"})
+L147 = Decker.Card(item_asset, 4, 1, {name = "L147"})
+P284 = Decker.Card(item_asset, 4, 2, {name = "P284"})
+P283 = Decker.Card(item_asset, 4, 3, {name = "P283"})
+P282 = Decker.Card(item_asset, 4, 4, {name = "P282"})
+P281 = Decker.Card(item_asset, 4, 5, {name = "P281"})
+P280 = Decker.Card(item_asset, 4, 6, {name = "P280"})
+P279 = Decker.Card(item_asset, 4, 7, {name = "P279"})
 
 local legacy_asset = Decker.Asset(
-   "https://drive.google.com/open?id=1E2MT3Gt6_5Q35PsqdNydodcUf44BztmM",
-   "https://drive.google.com/open?id=18m_Q3jw5Ijm5457lx-NcIeJN4slb2hAk",
+   "https://drive.google.com/uc?export=download&id=1E2MT3Gt6_5Q35PsqdNydodcUf44BztmM",
+   "https://drive.google.com/uc?export=download&id=18m_Q3jw5Ijm5457lx-NcIeJN4slb2hAk",
    {
       width = 10,
       height = 7,
+      uniqueBack = true,
    }
 )
+S0 = Decker.Card(legacy_asset, 1, 1, {name = "S0"})
+S19 = Decker.Card(legacy_asset, 1, 2, {name = "S19"})
+S20 = Decker.Card(legacy_asset, 1, 3, {name = "S20"})
+L1 = Decker.Card(legacy_asset, 1, 4, {name = "L1"})
+L2 = Decker.Card(legacy_asset, 1, 5, {name = "L2"})
+L4 = Decker.Card(legacy_asset, 1, 6, {name = "L4"})
+L5 = Decker.Card(legacy_asset, 1, 7, {name = "L5"})
+L6 = Decker.Card(legacy_asset, 1, 8, {name = "L6"})
+L7 = Decker.Card(legacy_asset, 1, 9, {name = "L7"})
+L8 = Decker.Card(legacy_asset, 1, 10, {name = "L8"})
+L9 = Decker.Card(legacy_asset, 2, 1, {name = "L9"})
+L10 = Decker.Card(legacy_asset, 2, 2, {name = "L10"})
+L11 = Decker.Card(legacy_asset, 2, 3, {name = "L11"})
+L12 = Decker.Card(legacy_asset, 2, 4, {name = "L12"})
+L20 = Decker.Card(legacy_asset, 2, 5, {name = "L20"})
+L26 = Decker.Card(legacy_asset, 2, 6, {name = "L26"})
+L28 = Decker.Card(legacy_asset, 2, 7, {name = "L28"})
+L34 = Decker.Card(legacy_asset, 2, 8, {name = "L34"})
+L36 = Decker.Card(legacy_asset, 2, 9, {name = "L36"})
+L42 = Decker.Card(legacy_asset, 2, 10, {name = "L42"})
+L44 = Decker.Card(legacy_asset, 3, 1, {name = "L44"})
+L50 = Decker.Card(legacy_asset, 3, 2, {name = "L50"})
+L52 = Decker.Card(legacy_asset, 3, 3, {name = "L52"})
+L58 = Decker.Card(legacy_asset, 3, 4, {name = "L58"})
+L60 = Decker.Card(legacy_asset, 3, 5, {name = "L60"})
+L89 = Decker.Card(legacy_asset, 3, 6, {name = "L89"})
+L90 = Decker.Card(legacy_asset, 3, 7, {name = "L90"})
+L91 = Decker.Card(legacy_asset, 3, 8, {name = "L91"})
+L100 = Decker.Card(legacy_asset, 3, 9, {name = "L100"})
+L102 = Decker.Card(legacy_asset, 3, 10, {name = "L102"})
+L108 = Decker.Card(legacy_asset, 4, 1, {name = "L108"})
+L110 = Decker.Card(legacy_asset, 4, 2, {name = "L110"})
+L111 = Decker.Card(legacy_asset, 4, 3, {name = "L111"})
+L119 = Decker.Card(legacy_asset, 4, 4, {name = "L119"})
+L121 = Decker.Card(legacy_asset, 4, 5, {name = "L121"})
+L126 = Decker.Card(legacy_asset, 4, 6, {name = "L126"})
+L128 = Decker.Card(legacy_asset, 4, 7, {name = "L128"})
+L136 = Decker.Card(legacy_asset, 4, 8, {name = "L136"})
+L138 = Decker.Card(legacy_asset, 4, 9, {name = "L138"})
+L143 = Decker.Card(legacy_asset, 4, 10, {name = "L143"})
+L145 = Decker.Card(legacy_asset, 5, 1, {name = "L145"})
+L151 = Decker.Card(legacy_asset, 5, 2, {name = "L151"})
+L152 = Decker.Card(legacy_asset, 5, 3, {name = "L152"})
+L153 = Decker.Card(legacy_asset, 5, 4, {name = "L153"})
+L154 = Decker.Card(legacy_asset, 5, 5, {name = "L154"})
+L155 = Decker.Card(legacy_asset, 5, 6, {name = "L155"})
+L156 = Decker.Card(legacy_asset, 5, 7, {name = "L156"})
+P299 = Decker.Card(legacy_asset, 5, 8, {name = "P299"})
+P298 = Decker.Card(legacy_asset, 5, 9, {name = "P298"})
+P297 = Decker.Card(legacy_asset, 5, 10, {name = "P297"})
+P296 = Decker.Card(legacy_asset, 6, 1, {name = "P296"})
+P295 = Decker.Card(legacy_asset, 6, 2, {name = "P295"})
+P294 = Decker.Card(legacy_asset, 6, 3, {name = "P294"})
+P293 = Decker.Card(legacy_asset, 6, 4, {name = "P293"})
+P291 = Decker.Card(legacy_asset, 6, 5, {name = "P291"})
+P274 = Decker.Card(legacy_asset, 6, 6, {name = "P274"})
+P257 = Decker.Card(legacy_asset, 6, 7, {name = "P257"})
+P249 = Decker.Card(legacy_asset, 6, 8, {name = "P249"})
+P231 = Decker.Card(legacy_asset, 6, 9, {name = "P231"})
+P202 = Decker.Card(legacy_asset, 6, 10, {name = "P202"})
+P200 = Decker.Card(legacy_asset, 7, 1, {name = "P200"})
 
 local omen_asset = Decker.Asset(
-   "https://drive.google.com/open?id=1LJpj3laSsGkTmTinvYFZypyn03WFGA-m",
-   "https://drive.google.com/open?id=14XbxTVz1d9qd_bQRj5mYzTUwTkMQk5sN",
+   "https://drive.google.com/uc?export=download&id=1LJpj3laSsGkTmTinvYFZypyn03WFGA-m",
+   "https://drive.google.com/uc?export=download&id=14XbxTVz1d9qd_bQRj5mYzTUwTkMQk5sN",
    {
       width = 10,
       height = 2,
+      uniqueBack = false,
    }
 )
 L3	 = Decker.Card(omen_asset, 1, 1, {name = "L3"})
@@ -110,11 +314,12 @@ P292 = Decker.Card(omen_asset, 2, 6, {name = "P290"})
 
 
 local otherworld_asset = Decker.Asset(
-   "https://drive.google.com/open?id=1Q3MG-kuV24ttA8pXKSGbqW48SQKBD6jg",
-   "https://drive.google.com/open?id=1UfdWYSoLQLaSAMphhZPxZorGWHWwSGvC",
+   "https://drive.google.com/uc?export=download&id=1Q3MG-kuV24ttA8pXKSGbqW48SQKBD6jg",
+   "https://drive.google.com/uc?export=download&id=1UfdWYSoLQLaSAMphhZPxZorGWHWwSGvC",
    {
       width = 6,
       height = 6,
+      uniqueBack = false,
    }
 )
 L61 = Decker.Card(otherworld_asset, 1, 1, {name = "L61"})
@@ -147,11 +352,12 @@ L87 = Decker.Card(otherworld_asset, 5, 3, {name = "L87"})
 L88 = Decker.Card(otherworld_asset, 5, 4, {name = "L88"})
 
 local portrait_asset = Decker.Asset(
-   "https://drive.google.com/open?id=1XrxtSrs9qXw_XITGhrUDDKsV4CsNyqbQ",
-   "https://drive.google.com/open?id=1lvfPgzMgxCP-eK9KMYs7YjknC8tg0qm2",
+   "https://drive.google.com/uc?export=download&id=1XrxtSrs9qXw_XITGhrUDDKsV4CsNyqbQ",
+   "https://drive.google.com/uc?export=download&id=1lvfPgzMgxCP-eK9KMYs7YjknC8tg0qm2",
    {
       width = 3,
       height = 2,
+      uniqueBack = true,
    }
 )
 L95 = Decker.Card(portrait_asset, 1, 1, {name = "L95"})
@@ -160,18 +366,8 @@ L97 = Decker.Card(portrait_asset, 1, 3, {name = "L97"})
 L98 = Decker.Card(portrait_asset, 2, 1, {name = "L98"})
 L99 = Decker.Card(portrait_asset, 2, 2, {name = "L99"})
 
-
-
-
-
-
-
 legacy_cards = {
-   Decker.Card(calling_asset, 1, 1, {name = "L021"}),
-   Decker.Card(calling_asset, 1, 4, {name = "L022"}),
-   Decker.Card(calling_asset, 1, 3, {name = "L023"}),
-   Decker.Card(calling_asset, 1, 2, {name = "L024"}),
-   Decker.Card(calling_asset, 1, 5, {name = "L025"}),
+   L23,L24
 }
 
 local legacy_deck = Decker.Deck(legacy_cards)
